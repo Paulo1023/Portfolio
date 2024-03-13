@@ -111,7 +111,7 @@ section {
 }
 
 .home {
-  min-height: 100vh;
+  min-height: 70vh;
   padding-top: 12rem;
   background-position: center;
   background-size: cover;
@@ -126,6 +126,7 @@ section {
 
 .home .row .content {
   flex: 1 1 42rem;
+  text-align: left;
 }
 
 .home .row .image {
@@ -154,6 +155,18 @@ section {
 .home .row .content h3 {
   font-size: 4rem;
   color: var(--main-color);
+  text-transform: none;
+}
+
+.home .row .content h4 {
+  font-size: 2.6rem;
+  color: grey;
+  text-transform: none;
+}
+
+.home .row .content h5 {
+  font-size: 2rem;
+  color: grey;
   text-transform: none;
 }
 
@@ -296,7 +309,6 @@ section {
   font-size: 2rem;
   color: var(--main-color);
   line-height: 1.8;
-  float: right;
   margin-right: 2rem;
 }
 
@@ -305,8 +317,9 @@ section {
 }
 
 .tech .tech-slider .box {
+  width: 60px;
   border: var(--border);
-  border-radius: var(--border-radius);
+  border-radius: 30px;
   text-align: center;
   position: relative;
   z-index: 0;
@@ -340,8 +353,8 @@ section {
 }
 
 .tech .tech-slider .box img {
-  height: 15rem;
-  width: 15rem;
+  height: 8rem;
+  width: 8rem;
   margin-bottom: .7rem;
 }
 
