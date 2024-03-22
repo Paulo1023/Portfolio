@@ -113,21 +113,21 @@ section {
 .home {
   min-height: 100vh;
   padding-top: 12rem;
-  
+  background: url(../image/background.png) no-repeat;
+  background-position: center;
+  background-size: cover;
   isolation: isolate;
 }
 
-.home::after {
+/* .home::after {
   content: '';
   position: absolute;
   z-index: -1;
   inset: 0;
   background: black;
   opacity: 0.5;
-  background: url(../image/background.png) no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+  
+} */
 
 .home .row {
   display: flex;
@@ -167,20 +167,21 @@ section {
 
 .home .row .content h3 {
   font-size: 4rem;
-  color: var(--main-color);
   text-transform: none;
 }
 
 .home .row .content h4 {
   font-size: 2.6rem;
-  color: grey;
   text-transform: none;
 }
 
 .home .row .content h5 {
   font-size: 2rem;
-  color: grey;
   text-transform: none;
+}
+
+.home .row .content h3, h4, h5 {
+  color: white;
 }
 
 .home .image-slider {
