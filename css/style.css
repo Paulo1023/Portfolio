@@ -278,7 +278,6 @@ section {
 
 .project {
   /*background: url(../image/codeEditor.png) no-repeat;*/
-  height: 100vh;
   background-position: center;
   background-size: cover;
 }
