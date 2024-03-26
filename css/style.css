@@ -514,6 +514,7 @@ section {
     left: 0;
     right: 0;
     background: #283039;
+    flex-direction: column;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
 
